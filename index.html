@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    <title>Hi-Tech Vision Solutions</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Hi-Tech Vision Solutions",
+        "description": "Hi-Tech Vision Solution is a leading provider of advanced security services, dedicated to safeguarding businesses, homes, and communities in Thane and Mumbai. With our comprehensive range of cutting-edge solutions, we offer unparalleled expertise in protecting your premises, assets, and people.",
+        "url": "https://hitechvisionsolution.co.in"
+      }
+    </script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .logo{
+            max-width: 250px;
+            min-width: 200px;
+            height: auto;
+        }
+        header{
+            background-color: whitesmoke;
+        }
+        #enquiry-call-btn{
+            background-color: aqua;
+        }
+        #enquiry-msg-btn{
+            background-color: lightgreen; 
+            
+        }
+        .services .child {
+        position: relative; /* Add position relative for shadow */
+        border: gray 2px solid;
+        }
+
+        .services .child:hover {
+        background-color: rgb(161, 218, 218);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Add light shadow */
+        transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+        }
+        .services_main{
+            background-color: whitesmoke;
+        }
+        .hero{
+        background-image: url('logo/bgSecurity.jpg');
+        background-size: cover; /* Adjust as needed */
+        background-position: center; /* Adjust as needed */
+        /* Additional background properties can be added here */
+        }
+        .hero p{
+            text-shadow: 2px;
+            font-size: larger;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1{
+            color: rgb(255, 121, 0) ;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .contact_main{
+            border-radius: 20px;
+            background-color: lightgray;
+            color: black;
+            padding: 10px;
+            width: 100%;
+        }
+        nav a{
+            padding: 3px;
+            border-radius: 10px;
+        }
+        nav a:hover{
+            text-decoration: underline;
+            background-color: lightgray;
+            
+        }
+    
+        #enquirybtn a{
+            margin: 4px;
+        }
+        footer{
+            width: 100%;
+            padding: 8px 0px;
+            background-color: lightgray;
+            text-align: center;
+            text-decoration: solid;
+        }
+        html, body {
+        overflow-x: hidden;
+      }
+
+    </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <a class="mr-5 hover:text-gray-900" href="#" onclick="location.reload();">Home</a>
+            <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+            <a class="mr-5 hover:text-gray-900" href="#services_main">Services</a>  
+          </nav>
+          
+          <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <img class="logo" src="logo/logo.jpeg" alt="Logo" >
+            <span class="ml-3 text-xl"></span>
+          </a>
+          <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0" id="enquirybtn">
+            <a href="tel:+919594684119">
+            <button id="enquiry-call-btn" class="inline-flex items-center bg-gray-100 border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>&nbsp;Enquiry
+            </button>
+            </a>
+
+            <a href="whatsapp://send?phone=+918108608108">
+                <button id="enquiry-msg-btn" class="inline-flex items-center bg-gray-100 border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
+                    <img src="logo/whatsapp.png" alt="">&nbsp;Massage
+                </button>
+                </a>
+          </div>
+        </div>
+      </header>
+
+      <!--hero-->
+      <div class="hero">
+        <section class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium ">Welcome To
+                  <br class="hidden lg:inline-block"><span style="color: rgb(82, 82, 82);"> Hi-Tech Vision Solutions</span>
+                </h1>
+                <p class="mb-8 leading-relaxed text-light">Hi-Tech Vision Solution is your trusted partner in delivering cutting-edge security, surveillance solutions, and secure systems. As a professional service provider, we are committed to safeguarding your peace of mind through innovative technologies and expert knowledge.</p>
+                <div class="flex justify-center">
+                </div>
+              </div>
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="logo/hi_tech_logo.jpg">
+              </div>
+            </div>
+          </section>
+      </div>
+
+      <!--services-->
+      <div class="services_main" id="services_main">
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap w-full mb-20">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">We Provide Solutions</h1>
+                  <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+                </div>
+                <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Hi-Tech Vision Solution is a leading provider of advanced security services, dedicated to safeguarding businesses, homes, and communities in Thane and Mumbai. With our comprehensive range of cutting-edge solutions, we offer unparalleled expertise in protecting your premises, assets, and people</p>
+              </div>
+              <div class="flex flex-wrap -m-4 services">
+
+                <div class="xl:w-1/4 md:w-1/2 p-4 ">
+                  <div class="bg-gray-100 p-6 rounded-lg child">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6 img-fluid" src="logo/cctv.jpg" alt="content">
+                    
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">CCTV SURVEILLANCE SYSTEM</h2>
+                    <p class="leading-relaxed text-base">Our state-of-the-art CCTV surveillance systems ensure round-the-clock monitoring, enabling you to keep a watchful eye on your property, deter potential threats, and gather critical evidence if needed.</p>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4 ">
+                  <div class="bg-gray-100 p-6 rounded-lg child">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/fingerprint.jpg" alt="content">
+                    
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">BIOMETRIC & ACCESS CONTROL</h2>
+                    <p class="leading-relaxed text-base">Enhance the security of your premises with our biometric and access control solutions. Implement secure access protocols, restrict unauthorized entry, and monitor employee attendance seamlessly.</p>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg child">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/fire_system.jpg" alt="content">
+                    
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">FIRE ALARM SYSTEM</h2>
+                    <p class="leading-relaxed text-base">We prioritize fire safety by offering advanced fire alarm systems that detect and alert at the earliest signs of fire, enabling prompt response and potentially saving lives and property.</p>
+                  </div>
+                </div>
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                  <div class="bg-gray-100 p-6 rounded-lg child">
+                    <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/alarm_system.jpg" alt="content">
+                    
+                    <h2 class="text-lg text-gray-900 font-medium title-font mb-4">INTRUSION ALARM SYSTEM</h2>
+                    <p class="leading-relaxed text-base">Protect your premises against unauthorized entry and potential intruders with our intrusion alarm systems. Our robust solutions provide a comprehensive layer of security to deter and detect any intrusion attempts.</p>
+                  </div>
+                </div>
+
+                <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg child">
+                      <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/intercome.jpg" alt="content">
+                      
+                      <h2 class="text-lg text-gray-900 font-medium title-font mb-4">INTERCOM SYSTEM</h2>
+                      <p class="leading-relaxed text-base">Stay connected and enhance communication within your premises with our intercom systems. Enable seamless internal communication, visitor verification, and controlled access to different areas of your property.</p>
+                    </div>
+                  </div>
+
+                  <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg child">
+                      <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/parking.jpg" alt="content">
+                      
+                      <h2 class="text-lg text-gray-900 font-medium title-font mb-4">PARKING MANAGEMENT SYSTEM</h2>
+                      <p class="leading-relaxed text-base">Streamline parking operations and enhance security with our parking management system. From ticketing to vehicle tracking, our solutions provide efficient management and ensure a smooth parking experience.</p>
+                    </div>
+                  </div>
+
+                  <div class="xl:w-1/4 md:w-1/2 p-4">
+                    <div class="bg-gray-100 p-6 rounded-lg child">
+                      <img class="h-40 rounded w-full object-cover object-center mb-6" src="logo/boom_system.jpg" alt="content">
+                      
+                      <h2 class="text-lg text-gray-900 font-medium title-font mb-4">BOOM BARRIER SYSTEM</h2>
+                      <p class="leading-relaxed text-base">Control vehicular access and ensure efficient traffic management with our boom barrier systems. From residential complexes to commercial parking lots, our solutions provide secure and streamlined entry and exit points.</p>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </section>
+      </div>
+
+      <!--contact-->
+      
+      <div id="contact">
+        <section class="text-gray-600 body-font relative">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="lg:flex sm:flex-wrap -mx-4">
+              <div class="lg:w-1/2 px-6">
+                <div class="relative" style="padding-bottom: 75%; height: 0; overflow: hidden;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.244049909522!2d72.9483658!3d19.1845401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b90b1aa69a4f%3A0xc1f1c919b2780bbd!2sMauli%20enterprises%2FHI%20TECH%20VISION%20SOLUTION!5e0!3m2!1sen!2sin!4v1685823561449!5m2!1sen!2sin" 
+                    width="100%" height="100%" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                  <div class="lg:w-1/2 px-6">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-m">ADDRESS</h2>
+                    <p class="mt-1">Office No.2, Ekta Apartment, Wagle Estate, Kisan Nagar, Thane [W] 400601</p>
+                  </div>
+                  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-m">GMAIL</h2>
+                    <a class="text-indigo-500 leading-relaxed" id="gmail">sales.hitechvisionsolution73@gmail.com</a>
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-m mt-4" id="phone">PHONE</h2>
+                    <a href="tel:+918070131524"><p class="leading-relaxed" style="color:blue;">+918070131524</p></a>
+                    <a href="tel:+919594684119"><p class="leading-relaxed" style="color:blue;">+919594684119</p></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        2023 Hi-Tech Solutions. All Rights Reserved.
+      </footer>
+    
+</body>
+</html>
